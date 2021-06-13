@@ -1,0 +1,17 @@
+Starting AssetCooker...
+Argument '--shaders' has been deprecated and is no longer used.
+Opened output file: C:\Users\lorna\OneDrive\Documentos\My Games\Sid Meier's Civilization VI\Mods\City Wide Preserves\ArtDefs/HuntingGrounds.artdef
+Cooking ArtDef: (Civilizations.artdef).
+Cooking ArtDef: (Eras.artdef).
+Cooking ArtDef: (CityGenerators.artdef).
+Cooking ArtDef: (Cultures.artdef).
+Cooking ArtDef: (Appeal.artdef).
+Cooking ArtDef: (Landmarks.artdef).
+Cooking ArtDef: (Districts.artdef).
+Cooking ArtDef: (Buildings.artdef).
+Cooking ArtDef: (StrategicView.artdef).
+Cooking ArtDef: (HuntingGrounds.artdef).
+Cook finished for ArtDef at Path: 'HuntingGrounds.artdef' with Template: 'Buildings'
+ArtDef cook completed.
+Opened output file: C:/Users/lorna/OneDrive/Documentos/My Games/Sid Meier's Civilization VI/Mods/City Wide Preserves/CityWidePreserves.dep    For project CityWidePreserves
+Cook completed in 2.001 seconds

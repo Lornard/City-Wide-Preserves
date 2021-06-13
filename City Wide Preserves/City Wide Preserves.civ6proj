@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>City Wide Preserves</Name>
+    <Guid>6a565530-a9ef-4994-94d2-ead53d913223</Guid>
+    <ProjectGuid>4acca33c-da05-4804-8f3e-6a9c9a40a43f</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Makes the benefits from the preserve buildings city wide, but weaker.</Teaser>
+    <Description>Makes the benefits from the preserve buildings city wide, but weaker.
+</Description>
+    <Authors>Lornard</Authors>
+    <SpecialThanks>JNR</SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssociationData><![CDATA[<Associations>
+  <Reference type="Dlc" title="Vietnam and Kublai Khan Pack" id="A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C" />
+  <Dependency type="Dlc" title="Vietnam and Kublai Khan Pack" id="A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C" />
+</Associations>]]></AssociationData>
+    <AssemblyName>City Wide Preserves</AssemblyName>
+    <RootNamespace>City Wide Preserves</RootNamespace>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="UpdatePreserveDistrict"><File>Core/Preserve.sql</File></UpdateDatabase><UpdateDatabase id="UpdatePreservePlacement"><Criteria>GreenCitiesInactive</Criteria><File>Core/Placement.sql</File></UpdateDatabase><UpdateText id="UpdatePreserveText"><File>Localization/Localization.sql</File></UpdateText><UpdateIcons id="UpdateHuntingGroundIcon"><File>Core/Icons.sql</File></UpdateIcons><UpdateArt id="UpdateHuntingGroundArt"><File>ArtDefs/HuntingGrounds.artdef</File><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="GreenCitiesInactive"><ModInUse inverse="1">11d23380-b947-4deb-82b0-9a982c3ff542</ModInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="ArtDefs\" />
+    <Folder Include="Assets\" />
+    <Folder Include="Core" />
+    <Folder Include="Localization" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\HuntingGrounds.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_PRS_Hunting_Ground.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Icons.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Placement.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Preserve.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\Localization.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="City Wide Preserves.Art.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>
