@@ -35,7 +35,10 @@
     <Folder Include="Localization" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ArtDefs\HuntingGrounds.artdef">
+    <Content Include="ArtDefs\Buildings.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Landmarks.artdef">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Assets\DIS_PRS_Hunting_Ground.ast">
