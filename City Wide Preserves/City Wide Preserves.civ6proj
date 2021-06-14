@@ -3,7 +3,6 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
     <Name>City Wide Preserves</Name>
-    <Guid>6a565530-a9ef-4994-94d2-ead53d913223</Guid>
     <ProjectGuid>4acca33c-da05-4804-8f3e-6a9c9a40a43f</ProjectGuid>
     <ModVersion>1</ModVersion>
     <Teaser>Makes the benefits from the preserve buildings city wide, but weaker.</Teaser>
@@ -22,7 +21,7 @@
 </Associations>]]></AssociationData>
     <AssemblyName>City Wide Preserves</AssemblyName>
     <RootNamespace>City Wide Preserves</RootNamespace>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="UpdatePreserveDistrict"><File>Core/Preserve.sql</File></UpdateDatabase><UpdateDatabase id="UpdatePreservePlacement"><Criteria>GreenCitiesInactive</Criteria><File>Core/Placement.sql</File></UpdateDatabase><UpdateText id="UpdatePreserveText"><File>Localization/Localization.sql</File></UpdateText><UpdateIcons id="UpdateHuntingGroundIcon"><File>Core/Icons.sql</File></UpdateIcons><UpdateArt id="UpdateHuntingGroundArt"><File>ArtDefs/HuntingGrounds.artdef</File><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="UpdatePreserveDistrict"><File>Core/Preserve.sql</File></UpdateDatabase><UpdateDatabase id="UpdatePreservePlacement"><Criteria>GreenCitiesInactive</Criteria><File>Core/Placement.sql</File></UpdateDatabase><UpdateText id="UpdatePreserveText"><File>Localization/Localization.sql</File></UpdateText><UpdateIcons id="UpdateHuntingGroundIcon"><File>Core/Icons.sql</File></UpdateIcons><UpdateArt id="UpdateHuntingGroundArt"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="GreenCitiesInactive"><ModInUse inverse="1">11d23380-b947-4deb-82b0-9a982c3ff542</ModInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">

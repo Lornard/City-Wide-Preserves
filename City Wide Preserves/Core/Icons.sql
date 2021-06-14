@@ -4,5 +4,5 @@
 --------------------------------------------------------------
 
 INSERT	INTO IconDefinitions
-		(Name,									Atlas,					Index)
+		(Name,									Atlas,					"Index")
 VALUES	("ICON_BUILDING_LRN_HUNTING_GROUNDS",	"ICON_ATLAS_BUILDINGS",	26);
