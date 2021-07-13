@@ -1,44 +1,13 @@
 Starting AssetCooker...
 Argument '--shaders' has been deprecated and is no longer used.
-Opened output file: C:\Users\lorna\OneDrive\Documentos\My Games\Sid Meier's Civilization VI\Mods\City Wide Preserves\ArtDefs/Landmarks.artdef
-Cooking ArtDef: (Eras.artdef).
-Cooking ArtDef: (Cultures.artdef).
-Cooking ArtDef: (Appeal.artdef).
-Cooking ArtDef: (StrategicView.artdef).
-Cooking ArtDef: (Buildings.artdef).
-Cooking ArtDef: (Landmarks.artdef).
- >> Landmarks.artdef >> Districts >> DISTRICT_PRESERVE >> BaseVariants >> KublaiKhan_Vietnam_Landmarks_BaseVariants002 >> Asset references an XLP entry (DIS_Preserve_Base_01) that does not exist in the XLP (tilebases.xlp).
- >> Landmarks.artdef >> Districts >> DISTRICT_PRESERVE >> BaseVariants >> KublaiKhan_Vietnam_Landmarks_BaseVariants002 >> Asset has had its value replaced with its default value.
-
- >> Landmarks.artdef >> Districts >> DISTRICT_PRESERVE >> BaseVariants >> KublaiKhan_Vietnam_Landmarks_BaseVariants003 >> Asset references an XLP entry (DIS_Preserve_Base_02) that does not exist in the XLP (tilebases.xlp).
- >> Landmarks.artdef >> Districts >> DISTRICT_PRESERVE >> BaseVariants >> KublaiKhan_Vietnam_Landmarks_BaseVariants003 >> Asset has had its value replaced with its default value.
-
- >> Landmarks.artdef >> Districts >> DISTRICT_PRESERVE >> BaseVariants >> KublaiKhan_Vietnam_Landmarks_BaseVariants004 >> Asset references an XLP entry (DIS_Preserve_Base_01) that does not exist in the XLP (tilebases.xlp).
- >> Landmarks.artdef >> Districts >> DISTRICT_PRESERVE >> BaseVariants >> KublaiKhan_Vietnam_Landmarks_BaseVariants004 >> Asset has had its value replaced with its default value.
-
- >> Landmarks.artdef >> Districts >> DISTRICT_PRESERVE >> BaseVariants >> KublaiKhan_Vietnam_Landmarks_BaseVariants005 >> Asset references an XLP entry (DIS_Preserve_Base_02) that does not exist in the XLP (tilebases.xlp).
- >> Landmarks.artdef >> Districts >> DISTRICT_PRESERVE >> BaseVariants >> KublaiKhan_Vietnam_Landmarks_BaseVariants005 >> Asset has had its value replaced with its default value.
-
- >> Landmarks.artdef >> Districts >> DISTRICT_PRESERVE >> BuildingVariants >> KublaiKhan_Vietnam_Landmarks_BuildingVariants >> Tag_HeroBuilding references an ArtDef entry (BUILDING_GROVE) that does not exist in the ArtDef Collection (Building) of ArtDef (Buildings.artdef).
- >> Landmarks.artdef >> Districts >> DISTRICT_PRESERVE >> BuildingVariants >> KublaiKhan_Vietnam_Landmarks_BuildingVariants >> Tag_HeroBuilding has had its value replaced with its default value.
-
- >> Landmarks.artdef >> Districts >> DISTRICT_PRESERVE >> BuildingVariants >> KublaiKhan_Vietnam_Landmarks_BuildingVariants >> Asset references an XLP entry (DIS_Preserve_Grove) that does not exist in the XLP (tilebases.xlp).
- >> Landmarks.artdef >> Districts >> DISTRICT_PRESERVE >> BuildingVariants >> KublaiKhan_Vietnam_Landmarks_BuildingVariants >> Asset has had its value replaced with its default value.
-
- >> Landmarks.artdef >> Districts >> DISTRICT_PRESERVE >> BuildingVariants >> KublaiKhan_Vietnam_Landmarks_BuildingVariants001 >> Tag_HeroBuilding references an ArtDef entry (BUILDING_SANCTUARY) that does not exist in the ArtDef Collection (Building) of ArtDef (Buildings.artdef).
- >> Landmarks.artdef >> Districts >> DISTRICT_PRESERVE >> BuildingVariants >> KublaiKhan_Vietnam_Landmarks_BuildingVariants001 >> Tag_HeroBuilding has had its value replaced with its default value.
-
- >> Landmarks.artdef >> Districts >> DISTRICT_PRESERVE >> BuildingVariants >> KublaiKhan_Vietnam_Landmarks_BuildingVariants001 >> Asset references an XLP entry (DIS_Preserve_Sanctuary) that does not exist in the XLP (tilebases.xlp).
- >> Landmarks.artdef >> Districts >> DISTRICT_PRESERVE >> BuildingVariants >> KublaiKhan_Vietnam_Landmarks_BuildingVariants001 >> Asset has had its value replaced with its default value.
-
- >> Landmarks.artdef >> Districts >> DISTRICT_PRESERVE >> BuildingSets >> Grove, Hunting Grounds >> Set001 references an ArtDef entry (BUILDING_GROVE) that does not exist in the ArtDef Collection (Building) of ArtDef (Buildings.artdef).
- >> Landmarks.artdef >> Districts >> DISTRICT_PRESERVE >> BuildingSets >> Grove, Hunting Grounds >> Set has had its value replaced with its default value.
-
- >> Landmarks.artdef >> Districts >> DISTRICT_PRESERVE >> BuildingSets >> Grove, Hunting Grounds, Sanctuary >> Set001 references an ArtDef entry (BUILDING_GROVE) that does not exist in the ArtDef Collection (Building) of ArtDef (Buildings.artdef).
- >> Landmarks.artdef >> Districts >> DISTRICT_PRESERVE >> BuildingSets >> Grove, Hunting Grounds, Sanctuary >> Set002 references an ArtDef entry (BUILDING_SANCTUARY) that does not exist in the ArtDef Collection (Building) of ArtDef (Buildings.artdef).
- >> Landmarks.artdef >> Districts >> DISTRICT_PRESERVE >> BuildingSets >> Grove, Hunting Grounds, Sanctuary >> Set has had its value replaced with its default value.
-
-Cook finished for ArtDef at Path: 'Landmarks.artdef' with Template: 'Landmarks'
-ArtDef cook completed.
-Opened output file: C:/Users/lorna/OneDrive/Documentos/My Games/Sid Meier's Civilization VI/Mods/City Wide Preserves/City Wide Preserves.dep    For project City Wide Preserves
-Cook completed in 2.027 seconds
+XLP cook starting...
+C:\Users\lorna\OneDrive\Documentos\Firaxis ModBuddy\Civilization VI\City Wide Preserves\City Wide Preserves\XLPs\hero_buildings.xlp
+Opened output file: C:\Users\lorna\OneDrive\Documentos\My Games\Sid Meier's Civilization VI\Mods\City Wide Preserves\Platforms\MacOS\BLPs/landmarks/hero_buildings.blp    For XLP: 'C:\Users\lorna\OneDrive\Documentos\Firaxis ModBuddy\Civilization VI\City Wide Preserves\City Wide Preserves\XLPs\hero_buildings.xlp'
+Could not load digest key: ''.  Using mod key to sign BLP.
+Starting 'landmarks/hero_buildings'
+Load finished for: 'landmarks/hero_buildings' in 0.002 seconds
+Cook finished for: 'landmarks/hero_buildings' in 0.000 seconds
+Disk write finished for: 'landmarks/hero_buildings' in 0.055 seconds
+Cleanup finished for: 'landmarks/hero_buildings' in 0.000 seconds
+XLP cook completed with success.
+Cook completed in 0.070 seconds

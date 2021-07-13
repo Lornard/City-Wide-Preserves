@@ -18,11 +18,13 @@
     <AssociationData><![CDATA[<Associations>
   <Reference type="Dlc" title="Vietnam and Kublai Khan Pack" id="A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C" />
   <Dependency type="Dlc" title="Vietnam and Kublai Khan Pack" id="A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C" />
+  <Reference type="Mod" title="Sukritact's Oceans" id="4922ba47-61e1-4b15-9281-db996b14522d" />
 </Associations>]]></AssociationData>
     <AssemblyName>City Wide Preserves</AssemblyName>
     <RootNamespace>City Wide Preserves</RootNamespace>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="UpdatePreserveDistrict"><File>Core/Preserve.sql</File></UpdateDatabase><UpdateDatabase id="UpdatePreservePlacement"><Criteria>GreenCitiesInactive</Criteria><File>Core/Placement.sql</File></UpdateDatabase><UpdateText id="UpdatePreserveText"><File>Localization/Localization.sql</File></UpdateText><UpdateIcons id="UpdateHuntingGroundIcon"><File>Core/Icons.sql</File></UpdateIcons><UpdateArt id="UpdateHuntingGroundArt"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
-    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="GreenCitiesInactive"><ModInUse inverse="1">11d23380-b947-4deb-82b0-9a982c3ff542</ModInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="UpdatePreserveDistrict"><File>Core/Preserve.sql</File></UpdateDatabase><UpdateDatabase id="UpdatePreservePlacement"><Criteria>GreenCitiesInactive</Criteria><File>Core/Placement.sql</File></UpdateDatabase><UpdateText id="UpdatePreserveText"><File>Localization/Localization.sql</File></UpdateText><UpdateIcons id="UpdateHuntingGroundIcon"><File>Core/Icons.sql</File></UpdateIcons><UpdateArt id="UpdateHuntingGroundArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="UpdatePreserveForOceans"><Criteria>OceansActive</Criteria><File>ModSupport/Oceans_Gameplay.sql</File></UpdateDatabase><UpdateText id="UpdateLocalizationForOceans"><Criteria>OceansActive</Criteria><File>ModSupport/Oceans_Localization.sql</File></UpdateText><UpdateDatabase id="UpdateHuntingGroundsForProgressiveSpecialists"><Criteria>ProgressiveSpecialistActive</Criteria><File>ModSupport/ProgressiveSpecialists_Gameplay.sql</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="GreenCitiesInactive"><ModInUse inverse="1">11d23380-b947-4deb-82b0-9a982c3ff542</ModInUse></Criteria><Criteria id="OceansActive"><ModInUse>4922ba47-61e1-4b15-9281-db996b14522d</ModInUse></Criteria><Criteria id="ProgressiveSpecialistActive"><ModInUse>dbcb84a8-dc88-4732-a2e7-60747d263a76</ModInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <Guid>1f894e0c-0d34-4b50-8749-def8c0edda90</Guid>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -32,6 +34,7 @@
     <Folder Include="Assets\" />
     <Folder Include="Core" />
     <Folder Include="Localization" />
+    <Folder Include="ModSupport" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="ArtDefs\Buildings.artdef">
@@ -41,6 +44,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Assets\DIS_PRS_Hunting_Ground.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_PRS_LRN_Hunting_Ground.ast">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Core\Icons.sql">
@@ -56,6 +62,15 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="City Wide Preserves.Art.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModSupport\Oceans_Gameplay.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModSupport\Oceans_Localization.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModSupport\ProgressiveSpecialists_Gameplay.sql">
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>
